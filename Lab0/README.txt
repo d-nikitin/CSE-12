@@ -1,0 +1,1 @@
+I, Dmitriy Nikitin , have read and understood the Spring CSE12 syllabus and Personal Responsibility Document. dnikitin 5 April 2020

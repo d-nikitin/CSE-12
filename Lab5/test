@@ -1,0 +1,28 @@
+main:
+	li $a0, 0x00400022
+	li $a1, 30
+ 	lw $a2, firebrick
+ 	
+ 	move $t0, $a1
+
+ 	move $a1, $a2
+ 	move $a2, $t0
+ 	
+	#jal draw_solid_circle
+.data 
+black: .word 0x00000000
+white: .word 0x00FFFFFF
+red: .word 0x00FF0000
+green: .word 0x0000FF00
+blue: .word 0x000000F
+orange: .word 0x00FF0F00
+yellow: .word 0x00FFFF00
+cyan: .word 0x0000FFFF
+midnightblue: .word 0x00191970
+firebrick: .word 0x00B22222
+slategray: .word 0x00708090
+mediumseagreen: .word 0x003CB371
+darkgreen: .word 0x00006400
+indigo: .word 0x004B0082
+
+.include "Lab5.asm"
